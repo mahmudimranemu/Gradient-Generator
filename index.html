@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./css/style.css" />
+  </head>
+  <body id="body-bg">
+    <header>
+      <h1>CSS Gradient Generators</h1>
+      <div class="color-picker-wrapper">
+        <div class="color-box">
+          <input
+            class="color-picker"
+            id="color1"
+            type="color"
+            value="#2193b0" />
+          <span
+            id="code1"
+            class="color-code1"
+            >#2193b0
+          </span>
+          <span
+            id="copied1"
+            class="copied"
+            >Copied!</span
+          >
+        </div>
+
+        <div class="color-box">
+          <input
+            class="color-picker"
+            id="color2"
+            type="color"
+            value="#6dd5ed" />
+          <span
+            id="code2"
+            class="color-code2"
+            >#6dd5ed
+          </span>
+          <span
+            id="copied2"
+            class="copied"
+            >Copied!</span
+          >
+        </div>
+      </div>
+    </header>
+    <main
+      id="gradient"
+      tooltip="Click to copy">
+      <h2 id="text-copied"></h2>
+      <p
+        id="color-code"
+        class="copy-color-code"></p>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
